@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Portfolio of Parth Jain – AI/ML Enthusiast, Full Stack Developer, Data Science Explorer.">
+  <title>Parth Jain | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;400&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <!-- FontAwesome for icons -->
+  <script src="https://kit.fontawesome.com/6d36df07e5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="particles-js"></div>
+  <nav class="navbar">
+    <div class="container nav-container">
+      <span class="logo">Parth Jain</span>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#certs">Certs</a></li>
+        <li><a href="#experience">XP</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <button id="theme-toggle" aria-label="Toggle dark/light mode"><i class="fas fa-moon"></i></button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <section id="home">
+    <div class="container hero">
+      <div class="hero-text">
+        <h1>Hi, I'm <span>Parth Jain</span></h1>
+        <p class="typing subtitle">AI/ML Enthusiast, Full Stack Developer, Data Science Explorer</p>
+        <div class="cta-buttons">
+          <a href="https://github.com/Jainparth22" target="_blank" class="btn github"><i class="fab fa-github"></i> GitHub</a>
+          <a href="https://www.linkedin.com/in/jainparth22/" target="_blank" class="btn linkedin"><i class="fab fa-linkedin"></i> LinkedIn</a>
+          <a href="Resume-21st-July.pdf" class="btn resume" download><i class="fas fa-download"></i> Résumé</a>
+        </div>
+      </div>
+      <div class="hero-avatar">
+        <img src="https://avatars.githubusercontent.com/u/16025599?v=4" alt="Parth Jain avatar" class="avatar-img">
+      </div>
+    </div>
+    <div class="floating-code-elements"></div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container about-content">
+      <div class="about-left">
+        <h2>About Me</h2>
+        <p>
+          <b>B.Tech (CSE)</b> – VIT Bhopal (CGPA: 8.44)<br>
+          <b>BS (Data Science)</b> – IIT Madras (CGPA: 7.80)<br>
+          I bridge ML, NLP, full stack dev, and bioinformatics. I love building AI-powered apps and optimizing systems.<br>
+          Interests: Reading, music, nature photography. Based in Kothri, MP.
+        </p>
+        <ul class="quick-stats">
+          <li><span class="stat-number animated-counter" data-count="2">0</span> Degrees</li>
+          <li><span class="stat-number animated-counter" data-count="1">0</span> State Medals</li>
+          <li><span class="stat-number animated-counter" data-count="1000">0</span>+ Genomes</li>
+          <li><span class="stat-number animated-counter" data-count="99.9">0</span>% Backend Uptime</li>
+        </ul>
+        <div class="badges">
+          <span class="badge">Python</span>
+          <span class="badge">Java</span>
+          <span class="badge">Vue.js</span>
+          <span class="badge">Flask</span>
+          <span class="badge">ML</span>
+          <span class="badge">NLP</span>
+        </div>
+      </div>
+      <div class="about-photo">
+        <img src="your-photo.jpg" alt="Parth Jain portrait" class="photo">
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>Skills & Tech Stack</h2>
+      <div class="skills-grid">
+        <div>
+          <h3>Languages</h3>
+          <div class="skills-icons">
+            <span><i class="fab fa-python"></i> Python</span>
+            <span><i class="fab fa-java"></i> Java</span>
+            <span>C++/C</span>
+            <span>JavaScript</span>
+            <span>SQL</span>
+            <span>HTML/CSS</span>
+            <span>SQLite</span>
+          </div>
+        </div>
+        <div>
+          <h3>Frameworks</h3>
+          <div class="skills-icons">
+            <span>Vue.js</span>
+            <span>Flask</span>
+            <span>Bootstrap</span>
+            <span>Transformers</span>
+            <span>TensorFlow</span>
+            <span>scikit-learn</span>
+            <span>Neural Networks</span>
+          </div>
+        </div>
+        <div>
+          <h3>Tools</h3>
+          <div class="skills-icons">
+            <span>Git</span>
+            <span>Linux</span>
+            <span>VSCode</span>
+            <span>Google Colab</span>
+            <span>Anaconda</span>
+            <span>Figma</span>
+            <span>Hugging Face</span>
+          </div>
+        </div>
+        <div>
+          <h3>DB & Other</h3>
+          <div class="skills-icons">
+            <span>PostgreSQL</span>
+            <span>SQLite</span>
+            <span>OOP</span>
+            <span>Networking</span>
+            <span>App Dev</span>
+          </div>
+        </div>
+      </div>
+      <div class="badges-container">
+        <span class="badge cert">Open Source</span>
+        <span class="badge cert">Hackathons</span>
+        <span class="badge cert">Certified NLP</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2>Featured Projects</h2>
+      <div class="projects-list">
+
+        <div class="project-card">
+          <div class="project-info">
+            <h3>Multi-Nodal AI-Powered Web App</h3>
+            <div class="tech-stack">
+              <span>Flask</span><span>Vue.js</span><span>OpenAI Whisper</span><span>Tesseract OCR</span><span>NLP</span>
+            </div>
+            <ul>
+              <li>Secure login web app with summarization, audio transcription, OCR, entity-relation extraction.</li>
+              <li>90% OCR accuracy, 95%+ audio transcription, PEGASUS text summarization (80% reduction).</li>
+              <li>ER NLP pipelines increased search relevance 45%.</li>
+            </ul>
+            <a href="https://github.com/Jainparth22" target="_blank" class="btn proj-github">View on GitHub</a>
+          </div>
+          <div class="project-media carousel">
+            <img src="project1-1.jpg" alt="Web App">
+            <img src="project1-2.jpg" alt="OCR UI">
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-info">
+            <h3>Genome Analysis Pipeline</h3>
+            <div class="tech-stack">
+              <span>Python</span><span>TensorFlow</span><span>scikit-learn</span>
+            </div>
+            <ul>
+              <li>Full pipeline: preprocessing, assembly, variant calling, annotation, pathogenicity prediction.</li>
+              <li>Processed 1,000+ sequences, 35% accuracy boost, classifiers at 96%+.</li>
+              <li>Interactive dashboards: confusion matrix, ROC, loss.</li>
+            </ul>
+            <a href="https://github.com/Jainparth22" target="_blank" class="btn proj-github">View on GitHub</a>
+          </div>
+          <div class="project-media carousel">
+            <img src="project2-1.gif" alt="Genome Dashboard">
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-info">
+            <h3>University Student Convenience System</h3>
+            <div class="tech-stack">
+              <span>Flask</span><span>SQLite</span><span>Vue.js</span>
+            </div>
+            <ul>
+              <li>On-demand campus ordering (1–2 day delivery, 5000+ transactions/mo).</li>
+              <li>99.9% uptime backend, 70% order time cut, auto-inventory.</li>
+            </ul>
+            <a href="https://github.com/Jainparth22" target="_blank" class="btn proj-github">View on GitHub</a>
+          </div>
+          <div class="project-media carousel">
+            <img src="project3-1.gif" alt="Order System">
+          </div>
+        </div>
+      </div>
+
+      <h3>Other Projects</h3>
+      <div class="small-projects-grid">
+        <div class="mini-card">Task Manager • <span>JS</span></div>
+        <div class="mini-card">Journaling App • <span>Python/Flask</span></div>
+        <div class="mini-card">IBM Neural Net • <span>Keras, TF</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="certs" class="section">
+    <div class="container">
+      <h2>Certifications & Achievements</h2>
+      <div class="certs-grid">
+        <div class="cert-card"><img src="iitm.png"><div>NLP w/ Transformers<br><span>Feb 2025</span></div></div>
+        <div class="cert-card"><img src="google.png"><div>Computer Networking<br><span>Oct 2024</span></div></div>
+        <div class="cert-card"><img src="neilit.png"><div>Embedded C & ARM<br><span>Dec 2023</span></div></div>
+        <div class="cert-card"><img src="mathworks.png"><div>MATLAB/Simulink<br><span>Aug 2023</span></div></div>
+        <div class="cert-card"><img src="ncsc-medal.png"><div>2nd Rank, NCSC<br><span>Medal</span></div></div>
+      </div>
+      <div class="leadership">
+        <span>Event Volunteer, AdVITya’24</span>
+        <span>Productivity tools: Docs, Slides, Canva, AI tools, Markdown</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="section">
+    <div class="container">
+      <h2>Experience & Extra-Curricular</h2>
+      <div class="timeline">
+        <div class="timeline-item"><span class="timeline-date">2025</span><span class="timeline-content">Genome Pipeline: Led 1,000+ samples, 100+ researchers impacted</span></div>
+        <div class="timeline-item"><span class="timeline-date">2024</span><span class="timeline-content">AdVITya’24 Volunteer: Managed events</span></div>
+        <div class="timeline-item"><span class="timeline-date">2023</span><span class="timeline-content">State NCSC Medal</span></div>
+      </div>
+      <div class="soft-skills">
+        <span>Teamwork</span>
+        <span>Leadership</span>
+        <span>Collaboration</span>
+        <span>Problem-Solving</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact / Let's Connect</h2>
+      <form id="contact-form" action="https://formspree.io/f/xqkvedvz" method="POST">
+        <input type="text" name="name" placeholder="Name*" required>
+        <input type="email" name="email" placeholder="Email*" required>
+        <textarea name="message" placeholder="Your Message*" rows="4" required></textarea>
+        <button type="submit" class="btn submit-btn">Send</button>
+      </form>
+      <div class="direct-links">
+        <a href="mailto:parthjain0722@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+        <a href="https://linkedin.com/in/jainparth22"><i class="fab fa-linkedin"></i> LinkedIn</a>
+        <a href="https://github.com/Jainparth22"><i class="fab fa-github"></i> GitHub</a>
+      </div>
+    </div>
+  </section>
+  
+  <footer>
+    <div class="container">
+      <span>Kothri, MP, India • <a href="mailto:parthjain0722@gmail.com">Email</a> • <a href="https://linkedin.com/in/jainparth22">LinkedIn</a> • <a href="https://github.com/Jainparth22">GitHub</a></span>
+      <br>
+      <small>Handcrafted with &lt;3 using Vue.js + Flask, inspired by Brittany Chiang &amp; Sivanesh Shanmugam.</small>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+  <!-- Particles.js CDN -->
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+  particlesJS.load('particles-js', 'particles.json', function() {
+    console.log('particles.js loaded!');
+  });
+</script>
+
+
+</body>
+</html>
